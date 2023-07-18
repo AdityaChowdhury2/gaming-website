@@ -1,5 +1,43 @@
+@media screen and (max-width: 1200px){
+    .banner-section{
+        gap: 35px;
+    }
+} 
+@media screen and (max-width: 768px) {
+    .banner-section{   
+       flex-direction: column;
+       background-position: bottom;
+    }
+    .banner-images{
+        order: 1;
+    }
+    .banner-content{
+        width: 400px;
+        order: 2;
+    }
+}
 @media screen and (max-width: 576px) {
     nav,.nav-menu{
         flex-direction: column;
+    }
+    .banner-content{
+        width: auto;
+    }
+    .banner-content p{
+        font-size: 1rem;
+    }
+    .banner-subtitle{
+        font-size: 2rem;
+    }
+    .banner-main-title{
+        font-size: 4rem;
+    }
+    .btn{
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+
+    .btn-secondary{
+        /* margin-left: 12px; */
     }
 }
