@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+/* Navbar style starts here */
+nav,.nav-logo,.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav{
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nav-logo img{
+    height: 40px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #3C354F ;
+}
+.nav-follow-button{
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(11, 2, 35, 0.10);
+}
+/* Navbar style ends here */
