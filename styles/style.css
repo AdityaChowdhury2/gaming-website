@@ -11,6 +11,10 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+.image-container img{
+    width: 100%;
+}
+
 /* Navbar style starts here */
 nav,.nav-logo,.nav-menu{
     display: flex;
@@ -125,9 +129,7 @@ nav{
     /* padding: 0 25px; */
     align-items: center;
 }
-.gamers-image img{
-    width: 100%;
-}
+
 .gamers-content{
     width: 40%;
     text-align: right;
@@ -158,3 +160,37 @@ nav{
     line-height: 45px;
 }
 /* Gamers section styles ends here */
+
+
+/* Game Video Section styles starts here */
+
+.section-heading{
+    text-align: center;
+    
+}
+.section-heading h2{
+    color:var(--text-black);
+    width: 655px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.section-heading p{
+    color: var(--text-gray);
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+}
+.games-video{
+    max-width: 1440px;
+    margin: 120px auto 0;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:24px
+}
+
+/* Game Video Section styles ends here */
