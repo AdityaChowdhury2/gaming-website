@@ -333,6 +333,9 @@ nav{
 
 footer{
     background-color: var(--color-black);
+}
+.footer-container{
+
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
@@ -373,6 +376,9 @@ footer .logo{
 .settings-menu a{
     color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
+}
+.copyright-paragraph{
+    color: rgba(255, 255, 255, 0.60);
 }
 
 
