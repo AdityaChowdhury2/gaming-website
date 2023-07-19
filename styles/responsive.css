@@ -29,6 +29,18 @@
     }
     
 } 
+@media screen and (max-width:992px) {
+    .gaming-types,.capsule{
+        gap: 10px;
+    }
+    .capsule img{
+        height: 30px;
+    }
+    .capsule p{
+        font-size: 0.75rem;
+        margin: 7px 0;
+    }
+}
 
 /* For Tablet */
 @media screen and (max-width: 768px) {
@@ -72,7 +84,12 @@
     }
     .play-game-content{
         width: 60%;
-       
+    }
+    .gaming-types,.capsule{
+        gap: 10px;
+    }
+    .capsule p{
+        font-size: 1rem;
     }
 
 }
@@ -131,5 +148,15 @@
         width: 100px;
         left: 75%;
         top: 75%;
+    }
+    .capsule{
+        padding: 6px;
+    }
+    .capsule img{
+        height: 20px;
+    }
+    .capsule p{
+        font-size: 0.5rem;
+        margin: 6px 0;
     }
 }
