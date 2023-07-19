@@ -2,15 +2,32 @@
 @media screen and (max-width: 1200px){
     .banner-section{
         gap: 35px;
-        
     }
     .gamers-section{
         width: auto;
-        padding: 0 10px;
     }
     .gamers-image{
         width:65%;
     }
+    .play-game{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .play-game-image{
+        order: 2;
+    }
+    .play-game-content{
+        width: 45%;
+        text-align: center;
+        margin:  0 auto;
+        margin-bottom: 70px;
+        order: 1;
+     }
+
+    .play-game-image{
+        padding-left: 75px;
+    }
+    
 } 
 
 /* For Tablet */
@@ -35,6 +52,29 @@
     .gamers-content{
         text-align: center;
     }
+    .play-game{
+        align-items: flex-end;
+    }
+    .play-game-image{
+        padding-left: 5px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .play-game-image .big-image{
+        width: 90%;
+        
+    }
+    .play-game-image .small-image {
+        position: absolute;
+        width: 200px;
+        top: 65%;
+        left: 70%;
+    }
+    .play-game-content{
+        width: 60%;
+       
+    }
+
 }
 /* for Mobile devices */
 @media screen and (max-width: 576px) {
@@ -65,7 +105,7 @@
     }
     .section-heading h2{
         width: auto;
-        font-size:1.5rem;
+        font-size:2rem;
     }
     .section-heading p{
         margin: 10px 0;
@@ -74,5 +114,22 @@
     .video-container{
         padding: 0 20px;
         grid-template-columns: 1fr;
+    }
+
+    .play-game-content {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .play-game-image{
+        width: auto;
+    }
+    .play-game-content h2 {
+        font-size: 2rem;
+    }
+    .play-game-image .small-image {
+        width: 100px;
+        left: 75%;
+        top: 75%;
     }
 }
