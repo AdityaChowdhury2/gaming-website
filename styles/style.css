@@ -2,7 +2,7 @@
 
 
 :root{
-    --text-black:#0B0223;
+    --color-black:#0B0223;
     --text-gray:#534C64;
     --gradient-text: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
@@ -16,19 +16,25 @@ body{
 }
 
 /* Navbar style starts here */
-nav,.nav-logo,.nav-menu{
+nav,.logo,.nav-menu{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 nav{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 20px auto;
     justify-content: space-between;
 }
-.nav-logo img{
+.logo img{
     height: 40px;
 }
+.logo h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 ;
+}
+
 .nav-menu a{
     text-decoration: none;
     color: #3C354F ;
@@ -62,7 +68,7 @@ nav{
     font-weight: 500;
 }
 .banner-subtitle{
-    color: var(--text-black);
+    color: var(--color-black);
     font-size: 48px;
     font-weight: 600;
     margin: 0;
@@ -170,7 +176,7 @@ nav{
     
 }
 .section-heading h2{
-    color:var(--text-black);
+    color:var(--color-black);
     width: 655px;
     margin: 0 auto;
     font-size: 48px;
@@ -224,7 +230,7 @@ nav{
     order: 2;
 }
 .play-game-content h2{
-    color: var(--text-black);
+    color: var(--color-black);
     margin: 0 0 24px;
     font-weight: 700;
     line-height: 60px;
@@ -247,7 +253,7 @@ nav{
 
 .gaming-types{
     max-width: 1440px;
-    margin: 200px auto;
+    margin: 200px auto 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -278,5 +284,53 @@ nav{
     
 }
 
-
 /* Types of games styles ends here */
+
+/* Footer styles starts here */
+
+footer{
+    background-color: var(--color-black);
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+footer .logo{
+    color: #fff;
+    justify-content: center;
+
+}
+.footer-menu,.settings-menu {
+    margin: 60px 0;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-menu > *, .settings-menu > *{
+    display: block;
+}
+.footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media-icons-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    gap: 40px;
+    padding: 0 10px;
+}
+.social-media-icons-container a{
+    /* text-decoration: none; */
+}
+.settings-menu a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+}
+
+
+/* Footer styles ends here */
