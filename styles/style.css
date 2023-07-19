@@ -3,6 +3,7 @@
 
 :root{
     --text-black:#0B0223;
+    --text-gray:#534C64;
     --gradient-text: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
 
@@ -62,13 +63,16 @@ nav{
     font-weight: 600;
     margin: 0;
 }
+.gradient-text{
+    background-image: var(--gradient-text);
+    color: transparent;
+    -webkit-background-clip: text;
+}
 .banner-main-title{
     font-weight: 800;
     font-size: 95px;
     margin: 0 0 24px;
-    background-image: var(--gradient-text);
-    color: transparent;
-    -webkit-background-clip: text;
+    
 }
 .banner-icon{
     margin-right:12px ;
@@ -111,3 +115,46 @@ nav{
 }
 
 /* Banner section styles ends here */
+
+/* Gamers section styles starts here */
+
+.gamers-section{
+    display: flex;
+    width: 1440px;
+    margin: 25px auto;
+    /* padding: 0 25px; */
+    align-items: center;
+}
+.gamers-image img{
+    width: 100%;
+}
+.gamers-content{
+    width: 40%;
+    text-align: right;
+}
+
+.gamers-content h2{
+    font-size: 48px;
+    margin: 0px;
+}
+.gamers-content .gamers-description {
+    color: var(--text-gray);
+    margin: 24px 0 12px;
+}
+.gamers-footer{
+    color: var(--text-gray);
+}
+.gamers-footer-subtitle{
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.gamers-footer-title{
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* Gamers section styles ends here */

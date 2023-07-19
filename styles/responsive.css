@@ -1,8 +1,19 @@
+/* For small laptop screens */
 @media screen and (max-width: 1200px){
     .banner-section{
         gap: 35px;
+        
+    }
+    .gamers-section{
+        width: auto;
+        padding: 0 10px;
+    }
+    .gamers-image{
+        width:65%;
     }
 } 
+
+/* For Tablet */
 @media screen and (max-width: 768px) {
     .banner-section{   
        flex-direction: column;
@@ -15,7 +26,17 @@
         width: 400px;
         order: 2;
     }
+    .gamers-section{
+        flex-direction: column;
+    }
+    .gamers-image, .gamers-content{
+        width: auto;
+    }
+    .gamers-content{
+        text-align: center;
+    }
 }
+/* for Mobile devices */
 @media screen and (max-width: 576px) {
     nav,.nav-menu{
         flex-direction: column;
@@ -36,8 +57,7 @@
         padding: 15px 30px;
         font-size: 1rem;
     }
-
-    .btn-secondary{
-        /* margin-left: 12px; */
+    .gamers-section{
+        padding: 0 10px;
     }
 }
