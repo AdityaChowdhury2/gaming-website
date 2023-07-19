@@ -198,7 +198,7 @@ nav{
 /* play games online styles starts here */
 .play-game{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 120px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -208,7 +208,6 @@ nav{
     position: relative;
 }
 .play-game-image .big-image{
-   
     width: 100%;
 }
 .play-game-image .small-image{
@@ -221,10 +220,16 @@ nav{
 }
 .play-game-content h2{
     color: var(--text-black);
-}
+    margin: 0 0 24px;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 48px;
 
+}
 .play-game-content p{
     color: var(--text-gray);
+    line-height: 30px;
+    font-size: 18px;
 }
 
 
