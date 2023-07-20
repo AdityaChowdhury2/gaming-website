@@ -203,7 +203,8 @@ nav{
 .video-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:24px
+    gap:24px;
+    padding: 0 20px;
 }
 .card .image-container{
     position: relative;
