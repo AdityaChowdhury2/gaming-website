@@ -101,6 +101,11 @@ nav{
     cursor: pointer;
     transition: background-color 0.5s ease-in, border 0.4s ease-in-out, color 0.3s ease-in-out;
 }
+.btn-white{
+    color: #FF42A5;
+    background-color: white;
+    margin-top: 40px;
+}
 
 .btn-primary{
     background-color: #FF42A5;
@@ -134,7 +139,6 @@ nav{
     display: flex;
     max-width: 1440px;
     margin: 25px auto;
-    /* padding: 0 25px; */
     align-items: center;
     padding: 0 10px;
 }
@@ -292,11 +296,64 @@ nav{
 
 /* play games online styles ends here */
 
+
+/* Career Section styles starts here */
+
+.career-section{
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);   
+}
+.career-container {
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 200px auto 0;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.position-row{
+    display: flex;
+    justify-content: space-between;
+}
+.position-location-column{
+    text-align: end;
+}
+.career-content {
+    width: 50%;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.career-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+
+}
+.career-content .position-name-column>p,.career-content .position-location-column>p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.career-image{
+    width: 50%;
+}
+.career-image img{
+    width: 100%;
+    display: block;
+}
+
+/* Career Section styles ends here */
+
 /* Types of games styles starts here */
 
 .gaming-types{
     max-width: 1440px;
-    margin: 200px auto 100px;
+    margin: 100px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -328,6 +385,8 @@ nav{
 }
 
 /* Types of games styles ends here */
+
+
 
 /* Footer styles starts here */
 

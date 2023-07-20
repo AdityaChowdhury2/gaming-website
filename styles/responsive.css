@@ -87,6 +87,17 @@
     .play-game-content{
         width: 60%;
     }
+
+    .career-container{
+        flex-direction: column;
+    }
+    .career-image,.career-content{
+        width: auto;
+    }
+    .career-content{
+        padding: 0;
+    }
+
     .gaming-types,.capsule{
         gap: 10px;
     }
@@ -115,6 +126,9 @@
     .btn{
         padding: 15px 30px;
         font-size: 1rem;
+    }
+    .career-content p,.career-content .position-name-column>p, .career-content .position-location-column>p{
+        font-size: 0.75rem;
     }
     .gamers-section{
         padding: 0 10px;
